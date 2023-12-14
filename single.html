@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/maps.js"></script>
+  <title>Parks & Pages</title>
+</head>
+
+<body>
+  <!-- nav bar -->
+  <nav>
+    <div class="nav-wrapper">
+      <div class="container">
+        <a href="#" class="brand-logo">Parks & Pages</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="favoritebooks.html">Favorite Books</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <div class="row">
+    <div class="column">
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-image">
+            <!-- Map -->
+            <span class="card-title" id="card-title">Map graphic</span>
+            <!--The div element for the map -->
+            <div id="map"></div>
+            <!-- this url is from the google maps api -->
+            <script
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALjN6cG-Hsi2pG8bFO32AvxrNW57olP3s&callback=initMap&libraries=&v=weekly"></script>
+          </div>
+        </div>
+        <div class="card">
+          <!-- div for book recommendations-->
+          <div class="row" id="books">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- List of parks in the area of user state search with images and info-->
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <h4 class="card-title" id="card-title">Parks Near You</h4>
+        </div>
+        <div class="card-content flex-box" id="park-info">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Loads JQuery -->
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!-- Links to Javscript files -->
+  <script src="./assets/js/pageLoad.js"></script>
+  <script src="./assets/js/birdscript.js"></script>
+</body>
+
+</html>
