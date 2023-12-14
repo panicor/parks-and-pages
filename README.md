@@ -4,4 +4,4 @@ This application is a search tool for the avid hiker and reader.  The user can s
 
 ![Screen Shot 2021-07-12 at 12 31 36 PM](https://user-images.githubusercontent.com/30808137/125324077-875c8680-e30d-11eb-9109-51b1d29976d7.png)
 
-https://rlaquea.github.io/Parks-and-Pages/
+https://panicor.github.io/parks-and-pages/
